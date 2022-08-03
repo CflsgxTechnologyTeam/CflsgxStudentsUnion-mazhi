@@ -1,4 +1,8 @@
 - name: 成都外国语学校高新校区官方网站
   url: http://www.cflsgx.com
-  src: life
+  src: official
+
+- name: 网站开发者的个人博客
+  url: http://gloridust.xyz
+  src: personal
 
