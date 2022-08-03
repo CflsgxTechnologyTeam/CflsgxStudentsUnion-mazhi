@@ -1,19 +1,6 @@
-- name: Software Engineer Keywords
+- name: 覆盖
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - 高一年级
+      - 高二年级
 
-- name: Mobile Developer Keywords
-  keywords:
-      - Android
-      - Reverse Engineering
 
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
