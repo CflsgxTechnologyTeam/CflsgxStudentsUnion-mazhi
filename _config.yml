@@ -77,10 +77,6 @@ navs:
 #     href: /archives/
 #     label: 归档
 
-#   -
-#     href: /open-source/
-#     label: 开源
-
 #  -
 #    href: /wiki/
 #    label: 维基
@@ -88,6 +84,10 @@ navs:
   -
     href: /links/
     label: 链接
+
+   -
+     href: https://cflsgx-mate.vercel.app/
+     label: 成高生活圈
 
   -
     href: /about/
