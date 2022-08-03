@@ -27,7 +27,7 @@ permalink: /about/
 </ul>
 
 
-## 结构
+## Skill Keywords
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}

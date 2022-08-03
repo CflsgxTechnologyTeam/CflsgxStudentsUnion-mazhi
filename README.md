@@ -1,6 +1,6 @@
 
 # 这是一个为成都外国语学校高新校区校团委学生会创建的项目  
-校团学会官网项目由第五届校团委宣传部部长[Gloridust](https://github.com/Gloridust)创办，[原项目仓库](https://github.com/Gloridust/cflsgx.top)已停用.原项目文章发布属于是纯手写HTML，非常繁杂不适用于长期运营。考虑到WordPress等服务器运营成本高，为了方便长远运营最终选择了MarkDown+Jekyll+GithubPage+Vercel+CloudFlare的方式实现。  
+校团学会官网项目由第五届校团委宣传部部长![Gloridust](https://github.com/Gloridust)创办，![原项目仓库](https://github.com/Gloridust/cflsgx.top)已停用.原项目文章发布属于是纯手写HTML，非常繁杂不适用于长期运营。考虑到WordPress等服务器运营成本高，为了方便长远运营最终选择了MarkDown+Jekyll+GithubPage+Vercel+CloudFlare的方式实现。  
 
 
 # 相关配置
@@ -96,4 +96,4 @@ topmost: true
 
 ## 致谢
 
-本系统修改自项目[码志](https://github.com/mzlogin/mzlogin.github.io)，谢谢原作者提供的开源项目！  
+本系统修改自项目[码志](https://github.com/mzlogin/mzlogin.github.io)，谢谢原作者提供的开源项目！
