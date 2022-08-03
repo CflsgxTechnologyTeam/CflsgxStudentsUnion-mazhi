@@ -96,4 +96,4 @@ topmost: true
 
 ## 致谢
 
-本系统修改自项目[码志](https://github.com/mzlogin/mzlogin.github.io)，谢谢原作者提供的开源项目！
+本系统修改自项目[码志](https://github.com/mzlogin/mzlogin.github.io)，谢谢原作者提供的开源项目！  
