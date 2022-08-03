@@ -1,29 +1,9 @@
-# 码志
 
-我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
+# 这是一个为成都外国语学校高新校区校团委学生会创建的项目  
+校团学会官网项目由第五届校团委宣传部部长![Gloridust](https://github.com/Gloridust)创办，![原项目仓库](https://github.com/Gloridust/cflsgx.top)已停用.原项目文章发布属于是纯手写HTML，非常繁杂不适用于长期运营。考虑到WordPress等服务器运营成本高，为了方便长远运营最终选择了MarkDown+Jekyll+GithubPage+Vercel+CloudFlare的方式实现。  
 
-## 概览
 
-<!-- vim-markdown-toc GFM -->
-
-* [效果预览](#效果预览)
-* [Fork 指南](#fork-指南)
-* [使用文档](#使用文档)
-* [经验与思考](#经验与思考)
-* [联系我](#联系我)
-* [致谢](#致谢)
-
-<!-- vim-markdown-toc -->
-
-## 效果预览
-
-**[在线预览 &rarr;](https://mazhuang.org)**
-
-![screenshot home](https://mazhuang.org/assets/images/screenshots/home.png)
-
-## Fork 指南
-
-Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
+# 相关配置
 
 1. 正确设置项目名称与分支。
 
@@ -41,30 +21,65 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
    **注意：** 如果使用 disqus，因为 disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的，否则请将该字段留空。我对该缺陷的记录见 [Issues#2][3]。
 
-4. 删除我的文章与图片。
+4. 放置文章与图片。
 
    如下文件夹中除了 template.md 文件外，都可以全部删除，然后添加你自己的内容。
 
-   * \_posts 文件夹中是我已发布的博客文章。
-   * \_drafts 文件夹中是我尚未发布的博客文章。
-   * \_wiki 文件夹中是我已发布的 wiki 页面。
-   * images 文件夹中是我的文章和页面里使用的图片。
+   * \_posts 文件夹中是已发布的博客文章。
+   * \_drafts 文件夹中是尚未发布的博客文章。
+   * images 文件夹中是文章和页面里使用的图片。
+   
+5. 修改二维码图片
+   
+   _config.yml 里的 components.qrcode 这一段用于控制二维码。
 
-5. 修改「关于」页面。
+   不显示二维码：将 components.qrcode.enabled 改为 false。
 
-   pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息，包括 \_data 目录下的 skills.yml 和 social.yml 文件里的数据。
+   替换二维码图片：替换 assets/images/qrcode.jpg 文件。
 
-   skills.yml 和 social.yml 里内容的含义可以参考：[_data 目录下的 yml 文件内容含义](https://mazhuang.org/2020/05/03/blog-template-qna/#_data-%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84-yml-%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E5%90%AB%E4%B9%89)。
+6. 目录下的 yml 文件内容含义
+
+pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息，包括 \_data 目录下的 skills.yml 和 social.yml 文件里的数据。
+
+*skills.yml* 文件里的内容对应[「关于」][1]页面里的 Skill Keywords。
+
+![](/images/posts/template/skills.yml.png)
+
+*social.yml* 文件里的内容对应[「关于」][1]页面里的「联系」里的内容。
+
+![](/images/posts/template/social.yml.png)
+
+*links.yml* 文件里的内容对应[「链接」][2]页面里的内容。
+
+![](/images/posts/template/links.yml.png)
+
 
 ## 使用文档
 
 - [本博客模板常见问题 Q & A](https://mazhuang.org/2020/05/03/blog-template-qna/)。
 
-- 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
+- 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll]。
+
+- 稿件采用MarkDown语法，具体格式参照![菜鸟教程](https://www.runoob.com/markdown/md-title.html)  
+
+- ## 文档编辑
+
+头部信息实例如下：  
+```txt
+---
+layout: post
+title: 本文标题
+categories: 分类归档
+description: 这里填写文章概要描述
+keywords: 关键词, 关键词
+topmost: true
+
+---
+```
 
 ## 经验与思考
 
-* 排版建议遵照一定的规范，推荐 [中文文案排版指北（简体中文版）][1]。
+* 排版建议遵照一定的规范，推荐 [中文文案排版指北（简体中文版）]。
 
 * 简约，尽量每个页面都不展示多余的内容。
 
@@ -78,16 +93,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 * 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
 
-## 联系我
-
-如果对本博客模板或者内容有任何建议，可以通过 [Issues](https://github.com/mzlogin/mzlogin.github.io/issues) 或者微信公众号「闷骚的程序员」与我取得联系。
-
-<img width="192px" height="192px" src="https://mazhuang.org/assets/images/qrcode.jpg"/>
 
 ## 致谢
 
-本博客外观基于 [DONGChuan](https://dongchuan.github.io) 修改，感谢！
-
-[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
-[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
+本系统修改自项目[码志](https://github.com/mzlogin/mzlogin.github.io)，谢谢原作者提供的开源项目！
