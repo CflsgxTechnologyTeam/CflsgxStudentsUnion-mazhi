@@ -4,7 +4,7 @@ title: 正在跳转：成高生活圈
 description: 正在跳转：成高生活圈
 keywords: 成高生活圈
 comments: false
-permalink: /cflsgx-mate
+permalink: /cflsgx-mate/
 ---
 
 # 正在跳转
