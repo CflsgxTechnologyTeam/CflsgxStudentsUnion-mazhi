@@ -77,13 +77,13 @@ navs:
 #     href: /archives/
 #     label: 归档
 
-  -
-    href: /feedback/
-    label: 反馈
+#   -
+#     href: /open-source/
+#     label: 开源
 
-  -
-    href: /links/
-    label: 链接
+#  -
+#    href: /links/
+#    label: 链接
 
   -
     href: /about/
