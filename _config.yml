@@ -74,23 +74,24 @@ navs:
     label: 分类
 
   -
+    href: /archives/
+    label: 归档
+  -
     href: /feedback/
     label: 反馈
 
-  -
-    href: /archives/
-    label: 归档
 #  -
 #    href: /links/
 #    label: 链接
+  -
+    href: /cflsgx-mate/
+    label: 成高生活圈
 
   -
     href: /about/
     label: 关于
 
-  -
-    href: /cflsgx-mate/
-    label: 成高生活圈
+
 
 
 # ---------------- #
