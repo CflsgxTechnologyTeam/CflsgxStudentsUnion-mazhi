@@ -77,9 +77,9 @@ navs:
     href: /feedback/
     label: 反馈
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: 归档
 #  -
 #    href: /links/
 #    label: 链接
