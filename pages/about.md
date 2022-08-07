@@ -18,9 +18,9 @@ permalink: /about/
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-
-</ul>
-
+</ul>  
+![三五二八时QQ](/images/posts/2022-08-03-blog_update/35284-qq.jpg)
+![GloridustQQ](/images/posts/2022-08-03-blog_update/gloridust-qq.jpg)
 
 ## 构成
 
