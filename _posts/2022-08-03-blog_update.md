@@ -20,4 +20,6 @@ topmost: true
 ![三五二八时QQ](/images/posts/2022-08-03-blog_update/35284-qq.jpg)
 
 网站开发负责 第五届宣传部部长QQ：[2621280245](https://qm.qq.com/cgi-bin/qm/qr?k=nXgxBV4A2M3egtMYK2wSLLPSNa1m2EvI&noverify=0)  
-![GloridustQQ](/images/posts/2022-08-03-blog_update/gloridust-qq.jpg)
+![GloridustQQ](/images/posts/2022-08-03-blog_update/gloridust-qq.jpg)  
+
+更多信息请移步[关于页面](/about/)
