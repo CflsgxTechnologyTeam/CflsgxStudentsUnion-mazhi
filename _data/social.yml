@@ -1,10 +1,6 @@
-- sitename: GitHub
-  name: CflsgxTechnologyTeam
-  url: https://github.com/CflsgxTechnologyTeam
-
 - sitename: 团学会官方QQ
   name: 三五二八时
-  url: https://tool.gljlw.com/qq/?qq=2155328029
+  url: /assets/images/contact/35284-qq.jpg
 
 - sitename: 校团委书记
   name: 吴元林老师
@@ -12,4 +8,9 @@
 
 - sitename: 网站运营
   name: 第五届宣传部部长
-  url: https://tool.gljlw.com/qq/?qq=2621280245
+  url: /assets/images/contact/gloridust-qq.jpg
+
+- sitename: GitHub
+  name: CflsgxTechnologyTeam
+  url: https://github.com/CflsgxTechnologyTeam
+
