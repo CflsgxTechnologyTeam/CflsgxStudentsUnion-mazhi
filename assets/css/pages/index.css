@@ -1,11 +1,11 @@
 .home .banner,
 .home .site-header {
     background: #83497d;
-    color: #83497d
+    color: #fff
 }
 
 .home .banner .collection-head {
-    color: ##83497d;
+    color: #fff;
     background: 0 0;
     box-shadow: none;
     -webkit-box-shadow: none
@@ -30,7 +30,7 @@
 
 @media (max-width:50em) {
   .home .collapsed .icon-bar {
-    background-color: #83497d;
+    background-color: white;
   }
 
   .home .collection-head .collection-header {
