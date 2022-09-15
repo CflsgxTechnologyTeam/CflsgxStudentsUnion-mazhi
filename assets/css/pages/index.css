@@ -30,7 +30,7 @@
 
 @media (max-width:50em) {
   .home .collapsed .icon-bar {
-    background-color: white;
+    background-color: #83497d;
   }
 
   .home .collection-head .collection-header {
