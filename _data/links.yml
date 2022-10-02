@@ -2,7 +2,11 @@
   url: http://www.cflsgx.com
   src: official
 
-- name: 网站开发者的个人博客
+- name: 宣传部相册存档-网盘
+  url: https://pan.quark.cn/s/31c2b0d082a1
+  scr: cloud
+
+- name: 网站开发者“辉晨Gloridust”的个人博客
   url: http://gloridust.xyz
   src: personal
 

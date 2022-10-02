@@ -80,9 +80,10 @@ navs:
     href: /feedback/
     label: 反馈
 
-#  -
-#    href: /links/
-#    label: 链接
+  -
+    href: /links/
+    label: 链接
+
   # -
   #   href: /cflsgx-mate/
   #   label: 成高生活圈
