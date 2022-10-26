@@ -84,9 +84,9 @@ navs:
     href: /links/
     label: 链接
 
-#   -
-#     href: /cflsgx-mate/
-#     label: 成高生活圈
+  -
+    href: /cflsgx-mate/
+    label: 成高生活圈
 
   -
     href: /about/
