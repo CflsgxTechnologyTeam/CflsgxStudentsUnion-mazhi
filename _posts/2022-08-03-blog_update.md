@@ -4,6 +4,7 @@ title: 关于官网升级通知
 categories: 关于本站
 description: 关于网站升级迁移：原网站采用html手写，为了适应生产环境以及方便后续团学会工作开展、文章发布，网站迁移更新。
 keywords: 网站更新, 网站迁移
+topmost: true
 ---
 
 ## 关于原网站
